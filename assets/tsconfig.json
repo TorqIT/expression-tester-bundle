@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "es2020",
+        "moduleResolution": "bundler",
+        "types": ["@types/webpack-env"],
+        "baseUrl": "./js/",
+        "strictNullChecks": true,
+        "jsx": "react",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "paths": {
+            "*": ["./@mf-types/*"]
+        }
+    },
+    "include": [
+        "./js/**/*",
+        "./@mf-types/*"
+    ]
+}

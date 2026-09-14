@@ -1,0 +1,43 @@
+{
+    "name": "torq-pimcore-expression-tester-bundle",
+    "version": "1.0.0",
+    "type": "module",
+    "private": true,
+    "license": "proprietary",
+    "scripts": {
+        "build": "rsbuild build",
+        "dev": "NODE_ENV=development rsbuild build",
+        "lint": "eslint ./js/src",
+        "lint-fix": "eslint ./js/src --fix",
+        "lint-fix-watch": "nodemon --watch './js/src/**/*' --exec \"eslint ./js/src --fix --cache\" -e js,jsx,ts,tsx",
+        "check-types": "tsc --noEmit",
+        "check-types-watch": "tsc --noEmit --watch"
+    },
+    "dependencies": {
+        "@ant-design/icons": "^6.2.2",
+        "@pimcore/studio-ui-bundle": "^2026.2",
+        "antd": "5.22.x",
+        "react": "18.3.x",
+        "react-dom": "18.3.x"
+    },
+    "devDependencies": {
+        "@module-federation/rsbuild-plugin": "^2.1.0",
+        "@rsbuild/core": "^1.3.16",
+        "@rsbuild/plugin-react": "^1.3.1",
+        "@types/react-dom": "18.3.x",
+        "@types/webpack-env": "^1.18.4",
+        "eslint": "^9.39.4",
+        "eslint-plugin-react": "^7.37.5",
+        "globals": "^15.x",
+        "nodemon": "^3.1.14",
+        "typescript": "^5.3.3",
+        "typescript-eslint": "^8.x"
+    },
+    "overrides": {
+        "adm-zip": "^0.6.0",
+        "fast-uri": ">=3.1.5",
+        "undici": ">=7.29.0",
+        "js-yaml": ">=4.3.1",
+        "react-router-dom": "^6.30.6"
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "entrypoints": {
+    "main": {
+      "js": [
+        "/bundles/torqpimcoreexpressiontester/build/static/js/async/753.6f6aa9e6.js",
+        "/bundles/torqpimcoreexpressiontester/build/static/js/async/649.6870cd2d.js",
+        "/bundles/torqpimcoreexpressiontester/build/static/js/async/676.51af2cdb.js",
+        "/bundles/torqpimcoreexpressiontester/build/static/js/async/73.ff070d16.js",
+        "/bundles/torqpimcoreexpressiontester/build/static/js/async/909.919d5c05.js",
+        "/bundles/torqpimcoreexpressiontester/build/static/js/async/285.f790326b.js",
+        "/bundles/torqpimcoreexpressiontester/build/static/js/814.97d786ba.js",
+        "/bundles/torqpimcoreexpressiontester/build/static/js/main.af93554c.js"
+      ],
+      "css": []
+    },
+    "torq_expression_tester_bundle": {
+      "js": [
+        "/bundles/torqpimcoreexpressiontester/build/static/js/async/753.6f6aa9e6.js",
+        "/bundles/torqpimcoreexpressiontester/build/static/js/async/649.6870cd2d.js",
+        "/bundles/torqpimcoreexpressiontester/build/static/js/async/676.51af2cdb.js",
+        "/bundles/torqpimcoreexpressiontester/build/static/js/async/73.ff070d16.js",
+        "/bundles/torqpimcoreexpressiontester/build/static/js/async/__federation_expose_default_export.991aa144.js",
+        "/bundles/torqpimcoreexpressiontester/build/static/js/async/909.919d5c05.js",
+        "/bundles/torqpimcoreexpressiontester/build/static/js/async/285.f790326b.js",
+        "/bundles/torqpimcoreexpressiontester/build/static/js/remoteEntry.js"
+      ],
+      "css": []
+    },
+    "exposeRemote": {
+      "js": [
+        "/bundles/torqpimcoreexpressiontester/build/exposeRemote.js"
+      ],
+      "css": []
+    }
+  }
+}

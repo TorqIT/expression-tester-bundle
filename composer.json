@@ -1,0 +1,24 @@
+{
+    "name": "torq/pimcore-expression-tester-bundle",
+    "type": "pimcore-bundle",
+    "description": "A Pimcore Studio UI tool for testing Symfony expressions against DataObjects",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "require": {
+        "pimcore/pimcore": "^12.0 || ^2025.0 || ^2026.1",
+        "pimcore/studio-ui-bundle": "*",
+        "pimcore/studio-backend-bundle": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Torq\\PimcoreExpressionTesterBundle\\": "src"
+        }
+    },
+    "extra": {
+        "pimcore": {
+            "bundles": [
+                "Torq\\PimcoreExpressionTesterBundle\\TorqPimcoreExpressionTesterBundle"
+            ]
+        }
+    }
+}

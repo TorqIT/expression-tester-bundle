@@ -1,0 +1,4 @@
+torq_expression_tester:
+    resource: '../../src/Controller/'
+    type: attribute
+    prefix: '%pimcore_studio_backend.url_prefix%'
