@@ -34,8 +34,8 @@
         "js": {
           "async": [],
           "sync": [
-            "static/js/async/285.f790326b.js",
-            "static/js/async/73.ff070d16.js"
+            "static/js/async/285.c364fc8b.js",
+            "static/js/async/73.131471be.js"
           ]
         },
         "css": {
@@ -55,7 +55,7 @@
         "js": {
           "async": [],
           "sync": [
-            "static/js/async/753.6f6aa9e6.js"
+            "static/js/async/753.948e5d3f.js"
           ]
         },
         "css": {
@@ -75,7 +75,7 @@
         "js": {
           "async": [],
           "sync": [
-            "static/js/814.97d786ba.js",
+            "static/js/814.2ba5cc1f.js",
             "static/js/remoteEntry.js"
           ]
         },
@@ -96,7 +96,7 @@
         "js": {
           "async": [],
           "sync": [
-            "static/js/814.97d786ba.js",
+            "static/js/814.2ba5cc1f.js",
             "static/js/remoteEntry.js"
           ]
         },
@@ -147,11 +147,11 @@
       "assets": {
         "js": {
           "sync": [
-            "static/js/async/__federation_expose_default_export.991aa144.js"
+            "static/js/async/__federation_expose_default_export.ec06d848.js"
           ],
           "async": [
             "static/js/async/649.6870cd2d.js",
-            "static/js/async/909.919d5c05.js",
+            "static/js/async/909.472b4311.js",
             "static/js/async/676.51af2cdb.js"
           ]
         },
